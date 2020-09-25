@@ -33,6 +33,6 @@ class StanzeController extends Controller
 
     // Stanza::create($request -> all()); altra soluzione!
 
-    return redirect() -> route('index');
+    return redirect() -> route('index-stanze');
 }
 }

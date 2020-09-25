@@ -1,1 +1,47 @@
-//
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: coral;
+    h1,
+    h2 {
+      color: black;
+    }
+
+    li {
+      list-style-type: none;
+      padding: 5px;
+        span {
+          color: red;
+          text-decoration: underline;
+        }
+    }
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  color: red;
+}
